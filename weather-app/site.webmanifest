@@ -1,0 +1,26 @@
+{
+  "name": "Weather App",
+  "short_name": "Weather",
+  "description": "Check real-time weather conditions, hourly updates, and 7-day forecasts worldwide.",
+  "start_url": "/weather-app/",
+  "scope": "/weather-app/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#03012d",
+  "theme_color": "#03012d",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "assets/images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

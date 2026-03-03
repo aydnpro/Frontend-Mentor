@@ -1,0 +1,102 @@
+@font-face {
+	font-display: swap;
+	font-family: 'Bricolage Grotesque';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('Bricolage Grotesque Bold'),
+		url(assets/fonts/BricolageGrotesque-Bold.ttf);
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 100 900;
+	src: url(assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+	font-display: swap;
+	font-family: 'DM Sans';
+	font-style: italic;
+	font-weight: 600;
+	src:
+		local('DM Sans SemiBold Italic'),
+		url(assets/fonts/DMSans-SemiBoldItalic.ttf);
+}
+
+:root {
+	--color-blue-500: hsl(233, 67%, 56%);
+	--color-blue-700: hsl(248, 70%, 36%);
+	--color-neutral-900: hsl(243, 96%, 9%);
+	--color-neutral-800: hsl(243, 27%, 20%);
+	--color-neutral-700: hsl(243, 23%, 24%);
+	--color-neutral-600: hsl(243, 23%, 30%);
+	--color-neutral-300: hsl(240, 6%, 70%);
+	--color-neutral-200: hsl(250, 6%, 84%);
+	--color-neutral-0: hsl(0, 0%, 100%);
+	--color-orange-500: hsl(28, 100%, 52%);
+
+	--font-primary: 'DM Sans', sans-serif;
+	--font-display: 'Bricolage Grotesque', sans-serif;
+
+	--font-light: 300;
+	--font-medium: 500;
+	--font-semibold: 600;
+	--font-bold: 700;
+
+	--text-small: .875rem;
+	--text-normal: 1rem;
+	--text-large: 1.125rem;
+	--text-x-large: 1.25rem;
+	--text-2x-large: 3rem;
+	--text-3x-large: 3.25rem;
+
+	--radius-small: .375rem;
+	--radius-normal: .5rem;
+	--radius-large: .625rem;
+	--radius-x-large: .75rem;
+	--radius-2x-large: 1rem;
+
+	--space-x-small: .25rem;
+	--space-small: .5rem;
+	--space-normal: .75rem;
+	--space-large: .875rem;
+	--space-x-large: 1rem;
+	--space-2x-large: 1.25rem;
+	--space-3x-large: 1.5rem;
+	--space-4x-large: 2rem;
+	--space-5x-large: 2.5rem;
+	--space-6x-large: 3rem;
+	--space-7x-large: 4rem;
+
+	--transition-bg-color: background-color 200ms ease-out;
+	--transition-transform: transform 200ms ease-out;
+	--transition-opacity: opacity 200ms ease-out;
+
+	--animation-spin: spin 2s ease-out infinite;
+}
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	background-color: var(--color-neutral-900);
+	color: var(--color-neutral-0);
+	font-family: var(--font-primary);
+	font-weight: var(--font-light);
+	line-height: 1.333;
+}
